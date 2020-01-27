@@ -1,0 +1,106 @@
+* {
+    text-decoration: none;
+}
+/*-----Header-----r*/
+h1 {
+    font-size: 100px;
+    color: white;
+    font-family: 'Anton';
+    text-shadow: 1px 1px 1px #000;
+}
+body {
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* The hero image */
+
+.hero-image {
+    width: 100vw;
+    height: 100vh;
+    /*Image Sizing*/
+    background-image: url("https://wallup.net/wp-content/uploads/2018/10/05/719351-dog-puppy-toy-poodle-poodle-walk-meadow-grass-flowers-joy-mood-748x468.jpg");
+    background-position: center;
+    background-size: cover;
+    /*Flexbox*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*------Subheading----*/
+.subheading {
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+/*------Rules----*/
+.rules {
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*------Counter----*/
+
+#counter {
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+}
+
+/*------Game Board----*/
+.gameboard {
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+td {
+    font-size: 110px;
+}
+/*------Results----*/
+#result {
+    font-family: 'Montserrat';
+    margin-top: 5px;
+}
+
+/*--------Button----*/
+button {
+    margin-bottom: 10px;
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #E1657B;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-shadow: 1px 1px 1px #000;
+}
+/*----- Footer-----*/
+footer {
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a.footer {
+    color: #E1657B;
+}
+
+a.footer:hover {
+    color: #F9EA93;
+}

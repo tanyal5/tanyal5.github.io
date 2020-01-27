@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Find Your Puppy!</title>
+        <link rel="stylesheet" href="visual.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico">
+    </head>
+    <body>
+        <div class="hero-image">
+            <h1>Find Your Puppy!</h1>
+            <a href="#rules"><button type="button" name="button">Play Game</button></a>
+        </div>
+        <div class="rules" id="rules">
+            <h2 class="subheading">Rules</h2>
+            <p>Oh no! You were on a walk and your puppy ran into a tall flower field. Your goal is to reunite with your precious angel.</p>
+            <ol>
+                <li>No crying! 😭</li>
+                <li>Do not step on more than five flowers, we care about the environment! 🌸</li>
+                <li>Watch out for poop! 💩</li>
+                <li>Find your puppy, and you win! 🐶</li>
+            </ol>
+        </div>
+
+        <h2 id="counter" class="subheading">Counter: 0</h2>
+
+        <div class="gameboard">
+            <table>
+                <tr>
+                    <td onClick="changeChar(0)" id=0>🌸</td>
+                    <td onClick="changeChar(1)" id=1>🌸</td>
+                    <td onClick="changeChar(2)" id=2>🌸</td>
+                    <td onClick="changeChar(3)" id=3>🌸</td>
+                </tr>
+                <tr>
+                    <td onClick="changeChar(4)" id=4>🌸</td>
+                    <td onClick="changeChar(5)" id=5>🌸</td>
+                    <td onClick="changeChar(6)" id=6>🌸</td>
+                    <td onClick="changeChar(7)" id=7>🌸</td>
+                </tr>
+                <tr>
+                    <td onClick="changeChar(8)" id=8>🌸</td>
+                    <td onClick="changeChar(9)" id=9>🌸</td>
+                    <td onClick="changeChar(10)" id=10>🌸</td>
+                    <td onClick="changeChar(11)" id=11>🌸</td>
+                </tr>
+            </table>
+            <h2 id="result"> </h2>
+            <button type="button" name="button" onClick="location.reload()">Restart Game</button>
+        </div>
+        <footer>
+            <a class="footer" href="https://www.instagram.com/kelly70ve/" target="_blank">Kelly G</a>
+            <a class="footer" href="https://www.instagram.com/tlizzles/" target="_blank">Tanya L</a>
+            <a class="footer" href="#Top">Back to Top</a>
+        </footer>
+        <script type="text/javascript" src="treasurehunt.js"></script>
+    </body>
+</html>
